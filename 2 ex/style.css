@@ -1,0 +1,117 @@
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+.logo {
+    margin-right: 15px;
+}
+
+.input-group-append {
+    position: relative;
+    text-align: center;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%; 
+    left: 140px;
+}
+
+#dropdownMenuButton {
+    margin-top: 15px;
+    width: 13%;
+    height: 5%;
+}
+
+.card {
+    width: 30%;
+    align-items: center;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.rarity {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 10px;
+    height: 13%;
+    align-items: center;
+    text-align: center;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    height: 30%;
+    align-items: center;
+    text-align: center;
+}
+
+.custom-gradient-btn {
+    background: linear-gradient(to right, #FDD446, #FFA500);
+    border: none;
+    border-radius: 30px;
+    width: 90%;
+    height: 20%;
+    text-align: center;
+    align-items: center;
+
+    margin-top: 5px;
+
+    font-size: 17px;
+}
+
+.nav-pagination {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 60px;
+}
+
+.pagination .page-link {
+    color: black;
+    border: none;
+    background-color: transparent;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.pagination .page-item.active .page-link {
+    background-color: #FDD446;
+    border-color: #FDD446;
+    color: black;
+}
+
+footer {
+    background-color: #FDD446;
+    width: 100%;
+    padding-top: 25px; 
+    padding-left: 90px;
+    padding-right: 20px;
+    font-size: 18px;
+}
+
+.company-info {
+    color: #000000;
+    align-items: center;
+}
+
+.img-fluid {
+    width: 66px; 
+    height: 60px;
+    display: block;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+.last-word {
+    color: gray;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
