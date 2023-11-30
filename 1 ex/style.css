@@ -1,0 +1,6 @@
+table {
+    width: 100%;
+}
+  #table-content tr:nth-child(-n+5) {
+    background-color: blue;
+  }
