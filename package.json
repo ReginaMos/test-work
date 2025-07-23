@@ -1,0 +1,29 @@
+{
+    "name": "test-work",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+        "lint": "eslint .",
+        "format": "prettier --write .",
+        "deploy": "gh-pages -d public"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ReginaMos/test-work.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "module",
+    "bugs": {
+        "url": "https://github.com/ReginaMos/test-work/issues"
+    },
+    "homepage": "https://github.com/ReginaMos/test-work#readme",
+    "devDependencies": {
+        "eslint": "^9.31.0",
+        "eslint-config-prettier": "^10.1.8",
+        "eslint-plugin-prettier": "^5.5.3",
+        "prettier": "^3.6.2"
+    }
+}
