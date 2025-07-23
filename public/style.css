@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+input, button {
+    all: unset;
+}
+
+.calculator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    gap: 40px;
+    margin: 20px;
+}
+
+.buttons-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.button {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    text-align: center;
+}
+
+.expression {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #4d4a4a;
+    min-width: 250px;
+    min-height: 35px;
+}

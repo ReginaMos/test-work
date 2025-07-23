@@ -1,4 +1,4 @@
-# Калькулятор на JavaScript + jQuery
+# Calculator using JavaScript + jQuery
 
 Simple calculator using pure JavaScript & jQuery
 
@@ -6,7 +6,7 @@ Simple calculator using pure JavaScript & jQuery
 
 [Link to deploy](https://your-deploy-link-here)  
 
-## 📦 Установка и запуск
+## 📦 Installment and running
 
 1. Clone [repository](https://github.com/ReginaMos/test-work.git)
 
