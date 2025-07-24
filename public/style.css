@@ -44,6 +44,8 @@ button {
     border: 1px solid #4d4a4a;
     min-width: 200px;
     min-height: 35px;
+    max-width: 300px;
+    overflow-x: auto;
 }
 
 @media screen and (orientation: portrait) {
